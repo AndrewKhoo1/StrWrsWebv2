@@ -1,6 +1,6 @@
-# require "public/app.rb"
-#
-# run ApiExample
+require "public/app.rb"
+
+run ApiExample
 
 use Rack::Static,
   :urls => ["/images", "/js", "/css"],
